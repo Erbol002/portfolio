@@ -1,0 +1,68 @@
+.nav_link{
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+.nav{
+    background-color: red;
+    text-align: right;
+}
+.content-wrapper {
+    background-color: #483D8B;
+    background-position: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.content-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    font-weight: 600;
+}
+
+.content-text {
+    font-size: 14px;
+    color: gray;
+    margin-left: 20px;
+}
+
+.row {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(255, 124, 124), rgb(255, 0, 200));
+    color: white;
+    padding: 5px 10px;
+}
+
+.cards-subtitle {
+    color: gray;
+}
+
+.cards:hover .cards-subtitle{
+    color: red;
+}
+
+.card-icon {
+    border: 1px solid black;
+}
+
+.card-social:hover .card-icon{
+    border-width: 0;
+    background-color: rgb(255, 0, 200);
+    color: white;
+}
+
+.card-social:hover .card-social-text{
+    color: rgb(255, 0, 200);
+}
